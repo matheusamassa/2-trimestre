@@ -7,67 +7,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você tem a oportunidade de conhecer qualquer pessoa, viva ou morta. Quem você escolhe?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "afirmação"
+                texto: "Uma figura histórica famosa.",
+                afirmacao: "Você tem um interesse profundo pela história e pelas pessoas que moldaram o mundo."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmação"
+                texto: "Um parente ou amigo querido que já faleceu.",
+                afirmacao: "Você valoriza suas relações pessoais e gostaria de ter mais um momento com alguém especial."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Você ganha um ingresso para qualquer evento no mundo. Qual você escolhe?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "afirmação"
+                texto: "Um grande festival de música.",
+                afirmacao: "Você ama música e quer vivenciar a energia de um grande festival ao vivo."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "afirmação"
+                texto: "Uma importante conferência de tecnologia.",
+                afirmacao: "Você é apaixonado por tecnologia e quer estar na vanguarda das novas inovações."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Você encontra uma lâmpada mágica que concede um poder. Qual você escolhe?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "afirmação"
+                texto: "A habilidade de curar qualquer doença.",
+                afirmacao: "Você quer ajudar as pessoas e fazer do mundo um lugar mais saudável."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                texto: "A habilidade de controlar o clima.",
+                afirmacao: "Você quer proteger o meio ambiente e garantir um futuro sustentável para o planeta."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Você pode escolher um novo talento para dominar. Qual você escolhe?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "afirmação"
+                texto: "Ser um mestre na culinária.",
+                afirmacao: "Você adora criar e experimentar novas receitas na cozinha."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "afirmação"
+                texto: "Ser um escritor talentoso.",
+                afirmacao: "Você tem uma paixão por contar histórias e quer cativar as pessoas com suas palavras."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Você pode viver um dia como qualquer animal. Qual você escolhe?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
+                texto: "Uma águia, para voar pelos céus.",
+                afirmacao: "Você é fascinado pela liberdade de voar e quer ver o mundo de cima."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "afirmação"
+                texto: "Um golfinho, para explorar o oceano.",
+                afirmacao: "Você ama o mar e quer nadar livremente nas profundezas do oceano."
             }
         ]
     },
